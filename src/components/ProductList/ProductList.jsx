@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('https://inevergamebot.site:8000/web-data', {
+        fetch('http://188.225.60.157:8000/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
